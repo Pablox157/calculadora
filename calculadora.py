@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Calculadora de Calorias - Treino em Gif", page_icon="")
+st.set_page_config(page_title="Calculadora de Calorias - Treino em Gif", page_icon="🔥")
 
 # Aplicando CSS para estilização
 def add_custom_css():
@@ -67,7 +67,7 @@ def calcular_tdee(sexo, idade, peso, altura, nivel_atividade, objetivo):
     
     return round(tmb, 2), round(tdee, 2), round(calorias_recomendadas, 2)
 
-st.title("🔥 Calculadora de Calorias - Treino em Gif")
+st.title("Calculadora de Calorias - Treino em Gif")
 st.write("Descubra quantas calorias você precisa consumir para emagrecer ou ganhar massa.")
 
 sexo = st.selectbox("Selecione seu sexo", ["Masculino", "Feminino"])
