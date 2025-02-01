@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="Calculadora de Calorias - Treino em Gif", page_icon="🔥")
+st.set_page_config(page_title="Calculadora de Calorias - Treino em Gif", page_icon="")
 
 # Aplicando CSS para estilização
 def add_custom_css():
